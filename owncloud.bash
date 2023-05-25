@@ -6,7 +6,7 @@ sudo apt-cache policy php
 sudo add-apt-repository ppa:ondrej/php --yes &> /dev/null
 sudo add-apt-repository ppa:ondrej/php
 apt update
-apt install php7.4
+apt-get install php7.4
 php7.4 -m
 apt-cache search php7.4-mysql
 apt install php7.4-mysql
