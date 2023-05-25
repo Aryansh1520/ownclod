@@ -1,0 +1,6 @@
+wget https://github.com/linuxsyr/owncloud/blob/main/owncloud.bash
+ls
+chmod +x owncloud.bash
+sudo bash ./owncloud.bash
+
+cat owncloud.bash
