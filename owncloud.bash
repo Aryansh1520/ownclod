@@ -1,9 +1,9 @@
-apt-get update  # To get the latest package lists
-apt install apache2 mariadb-server -y
-apt install php7.4 libapache2-mod-php7.4 php7.4-{mysql,intl,curl,json,gd,xml,mbstring,zip} -y
-apt install curl gnupg2 -y
-apt-cache policy php
-add-apt-repository ppa:ondrej/php --yes &> /dev/null
+sudo apt-get update  # To get the latest package lists
+sudo apt install apache2 mariadb-server -y
+sudo apt install php7.4 libapache2-mod-php7.4 php7.4-{mysql,intl,curl,json,gd,xml,mbstring,zip} -y
+sudo apt install curl gnupg2 -y
+sudo apt-cache policy php
+sudo add-apt-repository ppa:ondrej/php --yes &> /dev/null
 sudo add-apt-repository ppa:ondrej/php
 apt update
 apt install php7.4
